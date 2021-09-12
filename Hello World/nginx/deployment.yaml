@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello
+  name: Hello World
   labels:
-    app: hello
+    app: Hello World
 spec:
   selector:
     matchLabels:
-      app: hello
+      app: Hello World
   template:
     metadata:
       labels:
-        app: hello
+        app: Hello World
     spec:
       containers:
-      - name: hello
-        image: srikavyapendiala/hello
+      - name: Hello World
+        image: srikavyapendiala/Hello World
         ports:
         - containerPort: 80
         livenessProbe:
