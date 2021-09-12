@@ -1,15 +1,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: Hello World
+  name: hello
   labels:
-    app: Hello World
+    app: hello
 spec:
   type: ClusterIP
   ports:
-  - port: 80
-    targetPort: 80
+  - port: 1809
+    targetPort: 1809
     protocol: TCP
     name: http
   selector:
-    app: Hello World
+    app: hello
