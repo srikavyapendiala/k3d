@@ -10,4 +10,3 @@
         name: nginx
         port:
            number: 8080
- EOF
