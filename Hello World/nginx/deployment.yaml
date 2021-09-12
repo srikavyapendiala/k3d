@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: hello
-        image: hello-world
+        image: Hello World
         ports:
         - containerPort: 1809
